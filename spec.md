@@ -1,5 +1,5 @@
 <center><h1> PacketNG Protocol Specification </h1></center>
-<center><h1> Version 0.11 (DRAFT) </h1></center>
+<center><h1> Version 0.12 (DRAFT) </h1></center>
 <center><h3> Created by Paulo Dutra (PU4THZ) </h3></center>
 <center><h3> Contribuitors </h3></center>
 <center><h3> ... </h3></center>
@@ -45,6 +45,8 @@ This project aims to build a general Open Source Packet based transport layer fo
       * 7/8 - Less reliable transmission, highest throughput (88 %) ?
    
   * Frame Structure (TBD):
+
+    * Big Endian format (MSB ... LSB)
   
 -------------------------------------------------------------------- Header Start\
     [ 0  ] [ 4 Bytes   ] CCSDS Syncword `1ACFFC1D`\
